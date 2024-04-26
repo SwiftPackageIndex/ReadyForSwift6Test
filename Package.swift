@@ -10,5 +10,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "ReadyForSwift6Test"),
-    ]
+    ],
+    swiftLanguageVersions: [.version("6")]
 )
