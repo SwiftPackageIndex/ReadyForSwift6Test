@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "ReadyForSwift6Test", targets: ["ReadyForSwift6Test"]),
     ],
     targets: [
-        .target(name: "ReadyForSwift6Test"),
+        .target(name: "ReadyForSwift6Test", swiftSettings: [.enableExperimentalFeature("StrictConcurrency")]),
     ]
 )
